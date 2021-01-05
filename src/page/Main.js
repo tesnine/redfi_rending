@@ -14,6 +14,7 @@ function Main(props){
             m1_tl.from('.m1 .main_img .img_mask .img_item',3,{scale:1.2,ease:Power1.easeIn,},0);
             m1_tl.from('.m1 .main_info .main_copy .mc_mask .mc_t',1.5,{y:"70px",ease:Power2.easeOut,},0.5);
             m1_tl.from('.m1 .main_info .main_desc',1,{x:"50px",opacity:0,ease:Power1.easeIn,},1.2);
+            m1_tl.from('.m1 .main_info .bt_section',1,{y:"50px",opacity:0,ease:Power1.easeIn,},1.4);
             m1_tl.from('.m1 .side_info .si_item',0.5,{y:"-80px",opacity:0},1.5);
             m1_tl.from('.m1 .scroll_info .scroll_deco',0.5,{scaleX:0,opacity:0},2);
             m1_tl.from('.m1 .scroll_info .scroll_text',0.5,{x:"30px",opacity:0},2.5);
@@ -22,12 +23,15 @@ function Main(props){
             const m1_sc_tl2 = gsap.to(".m1 .main_img",800,{scale:1.4,y:-200,ease:Power1.easeIn});
             const m1_sc_tl3 = gsap.to(".m1 .scroll_info",800,{x:-200});
 
-            const circle_tl = gsap.from('.m2 .circle_items .cr2',1000,{x:200});
-            const circle_tl2 = gsap.from('.m2 .circle_items .cr3',1000,{x:-200});
+            const circle_tl = gsap.from('.m2 .circle_items .cr2',1000,{x:-200});
+            const circle_tl2 = gsap.from('.m2 .circle_items .cr3',1000,{x:200});
 
 
             const m2_tl = gsap.timeline({paused:true});
 
+
+            m2_tl.from('.m2 .circle_items .cr_deco_line',1.5,{scaleX:0},0);
+            m2_tl.from('.m2 .circle_items .cr_logo',1,{x:'100px',opacity:0},1.2);
             m2_tl.from('.m2 .section_title',1,{x:100,opacity:0},0);
             m2_tl.from('.m2 .main_copy',1,{x:100,opacity:0},0.5);
             m2_tl.from('.m2 .copy_desc',1,{x:100,opacity:0},1);
@@ -117,6 +121,10 @@ function Main(props){
                         한도없는 투자의 새 지평, 투자자와 투자처를 이어주는 플랫폼의<br/>
                         새로운 패러다임. 레드파이가 함께 열어갑니다
                     </div>
+                    <div className={'bt_section'}>
+                        <div className={'link_bt'}>모집인 참여</div>
+                        <div className={'link_bt'}>조합원 참여</div>
+                    </div>
                 </div>
                 <div className={'scroll_info'}>
                     <div className={'scroll_deco'}></div>
@@ -126,9 +134,11 @@ function Main(props){
             </div>
             <div className={'main m2'}>
                 <div className={'circle_items'}>
-                    <div className={'cr_item cr1'}  style={{backgroundImage:"url('/img/circle_back.jpg')"}}></div>
-                    <div className={'cr_item cr2'} >Individual</div>
-                    <div className={'cr_item cr3'} >P2P</div>
+                    <div className={'cr_item cr1'}  style={{backgroundImage:"url('/img/circle_back.jpg')"}}><div className={'cr_deco_line'}></div></div>
+                    <div className={'cr_item cr2'} ><span className={'cr_t'}>Individual</span></div>
+                    <div className={'cr_item cr3'} ><span className={'cr_t'}>P2P</span></div>
+                    <div className={'cr_logo'}><img src={'/img/logo.svg'}/></div>
+
                 </div>
                 <div className={'circle_info'}>
                     <div className={'section_title'}>service intro</div>

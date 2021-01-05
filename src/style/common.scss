@@ -74,6 +74,17 @@ body{
          font-weight:500;
          margin-top:40px;
        }
+       .bt_section{
+         margin-top:40px;
+         .link_bt{
+           display:inline-block;
+           font-size:18px;
+           text-decoration: underline;
+           cursor: pointer;
+           font-weight:700;
+           margin-right:50px
+         }
+       }
      }
       .scroll_info{
         position: absolute;
@@ -116,18 +127,42 @@ body{
           border-radius: 50%;
           position: absolute;
           box-sizing: border-box;
+          z-index: 1;
+          .cr_t{
+            position: relative;
+            z-index: 10;
+          }
           &.cr1{
             background-size: cover;
             left:0px;
           }
           &.cr2{
-            left:140px;
+            left:110px;
             border: 1px solid #282828;
           }
           &.cr3{
-            left:350px;
+            left:360px;
             border: 1px dashed #898989;
           }
+        }
+        .cr_logo{
+          position: absolute;
+          left:900px;
+          top:50%;
+          margin-top:-13px;
+          img{
+            width:75px;
+          }
+        }
+        .cr_deco_line{
+          width:930px;
+          height:1px;
+          transform-origin: left top;
+          background-color: #F17982;
+          position: absolute;
+          z-index: 1;
+          top:50%;
+          left:-50px;
         }
       }
       .circle_info{

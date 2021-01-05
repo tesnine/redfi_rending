@@ -2,42 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="482d1a24-adf3-4b55-973e-21585d8db8fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/Bitmap.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/circle_back.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/android-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/android-icon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/android-icon-36x36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/android-icon-48x48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/android-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/android-icon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/apple-icon-114x114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/apple-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/apple-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/apple-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/apple-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/apple-icon-57x57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/apple-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/apple-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/apple-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/apple-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/ms-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/ms-icon-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/ms-icon-310x310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon/ms-icon-70x70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/main01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/main01_m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/main03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/main05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/snsImg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/mobile.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +62,7 @@
       <updated>1608885893971</updated>
       <workItem from="1608885895588" duration="8533000" />
       <workItem from="1609068799321" duration="11827000" />
-      <workItem from="1609288358150" duration="7032000" />
+      <workItem from="1609288358150" duration="14688000" />
     </task>
     <task id="LOCAL-00001" summary=" 랜딩페이지완료">
       <created>1609393495646</created>
@@ -103,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609393495646</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="이미지포함">
+      <created>1609394045500</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609394045500</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,13 +86,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" 랜딩페이지완료" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 랜딩페이지완료" />
+    <MESSAGE value="이미지포함" />
+    <option name="LAST_COMMIT_MESSAGE" value="이미지포함" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="429" y="137" key="CommitChangelistDialog2" timestamp="1609393495377">
+    <state x="429" y="137" key="CommitChangelistDialog2" timestamp="1609394045206">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="429" y="137" key="CommitChangelistDialog2/0.25.1680.1025@0.25.1680.1025" timestamp="1609393495377" />
+    <state x="429" y="137" key="CommitChangelistDialog2/0.25.1680.1025@0.25.1680.1025" timestamp="1609394045206" />
     <state x="540" y="335" key="EditFileWatcherDialog" timestamp="1608886032268">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
@@ -126,10 +102,14 @@
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="627" y="418" key="Github.ShareDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1609393460963" />
-    <state x="440" y="274" key="Vcs.Push.Dialog.v2" timestamp="1609393499891">
+    <state x="440" y="274" key="Vcs.Push.Dialog.v2" timestamp="1609394049763">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="440" y="274" key="Vcs.Push.Dialog.v2/0.25.1680.1025@0.25.1680.1025" timestamp="1609393499891" />
+    <state x="440" y="274" key="Vcs.Push.Dialog.v2/0.25.1680.1025@0.25.1680.1025" timestamp="1609394049763" />
+    <state x="2092" y="25" width="1425" height="1005" key="dock-window-1" timestamp="1609808751718">
+      <screen x="1920" y="25" width="1680" height="1025" />
+    </state>
+    <state x="2092" y="25" width="1425" height="1005" key="dock-window-1/0.25.1920.1055/1920.25.1680.1025/-1920.25.1920.1055@0.25.1920.1055" timestamp="1609808751718" />
     <state x="625" y="200" width="670" height="676" key="search.everywhere.popup" timestamp="1609247213781">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
